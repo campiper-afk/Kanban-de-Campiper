@@ -276,7 +276,7 @@
       document.getElementById('edit-descripcion').value = tarjeta.descripcion;
       document.getElementById('edit-responsable').value = tarjeta.responsable;
       document.getElementById('edit-fechaInicio').value = formatearFecha(tarjeta.fechaInicio);
-      document.getElementById('edit.fechaFin').value = formatearFecha(tarjeta.fechaFin);
+      document.getElementById('edit-fechaFin').value = formatearFecha(tarjeta.fechaFin);
       document.getElementById('edit-url').value = tarjeta.url || '';
 
       toggleModal('modal-editar-tarea');
@@ -301,7 +301,7 @@
         descripcion: document.getElementById('edit-descripcion').value,
         responsable: document.getElementById('edit-responsable').value,
         fechaInicio: document.getElementById('edit-fechaInicio').value,
-        fechaFin: document.getElementById('edit.fechaFin').value,
+        fechaFin: document.getElementById('edit-fechaFin').value,
         url: document.getElementById('edit-url').value,
       };
 
